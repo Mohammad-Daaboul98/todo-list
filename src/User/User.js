@@ -32,7 +32,7 @@ const UserInfo = () => {
 
   return (
     <div className={classes.user_box}>
-      {image && <img className={classes.user_photo} src={image} />}
+      {image && <img className={classes.user_photo} alt="user-photo" src={image} />}
       <label for="input_file" className={classes.input_file}>Select Image</label>
       <input id='input_file' type="file" title='kook' onChange={handleFileChange} />
 
