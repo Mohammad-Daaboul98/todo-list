@@ -1,2 +1,5 @@
 [[redirects]]
+from ='/*'
+to='/index.html'
+status = 200
 CI= npm run build
