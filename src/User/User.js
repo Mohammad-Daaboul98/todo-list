@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 import classes from './User.module.css';
 import useData from '../Hook/useData';
