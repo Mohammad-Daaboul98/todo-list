@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom'
+import item from '../fake-database/db.json';
 import useData from "../Hook/useData";
 
 const Create = () => {
-    const { data, addData } = useData();
+    const { data, addData } = useData(item.Users[0].list);
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const navigate = useNavigate()
